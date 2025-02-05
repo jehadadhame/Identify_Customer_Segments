@@ -50,7 +50,7 @@ def compare_column_distribution(df1, df2, column):
     plt.show()
     
     
-def clean_data(df: pd.DataFrame, feature_missin_values):
+def clean_data(df: pd.DataFrame, feature_missin_values, imp_mean):
     """
     Perform feature trimming, re-encoding, and engineering for demographics
     data
